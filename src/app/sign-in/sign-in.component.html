@@ -1,7 +1,7 @@
-<p>
-  sign-in works!
-</p>
-<button (click)="onClickMe()">Click me!</button>
-<p>
+<button (click)="onClickMe()">Obtenir un JSON Web Token</button>
+<div id="raw-jwt">
   {{jsonWebToken | json}}
+</div>
+<p>
+  Vérification du JWT <a href="https://jwt.io/" target="_blank">https://jwt.io/</a> (algorithme HS384)
 </p>
