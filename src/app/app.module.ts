@@ -7,14 +7,12 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { SignInComponent } from './sign-in/sign-in.component';
-import { MetamaskMovingLogoComponent } from './metamask-moving-logo/metamask-moving-logo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignInComponent,
-    MetamaskMovingLogoComponent
+    SignInComponent
   ],
   imports: [
     BrowserModule,
